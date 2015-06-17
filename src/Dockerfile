@@ -1,5 +1,4 @@
-
-FROM dockerfile/java:oracle-java8
+FROM java:8u45-jdk
 
 ENV SCALA_VERSION 2.11.6
 ENV SBT_VERSION 0.13.8

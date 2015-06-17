@@ -1,0 +1,1 @@
+dockerized base scala image

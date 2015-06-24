@@ -20,6 +20,10 @@ RUN \
   apt-get update && \
   apt-get install sbt
 
+#install some utility
+RUN \
+  apt-get install netcat vim
+
 # Define working directory
 
 WORKDIR /root

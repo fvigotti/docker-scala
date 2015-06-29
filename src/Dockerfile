@@ -22,7 +22,7 @@ RUN \
 
 #install some utility
 RUN \
-  apt-get install netcat vim
+  apt-get install -y netcat vim
 
 # Define working directory
 
